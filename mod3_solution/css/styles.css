@@ -1,0 +1,123 @@
+body {
+  font-size: 16px;
+  /*color: #fff;*/
+  /*background-color: #61122f;*/
+  /*font-family: 'Oxygen', sans-serif;*/
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  /*border-radius: 0;*/
+  border: 2px solid black;
+  border-collapse: collapse;
+
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 55px;
+  padding-left: 30px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Helvetica;
+  color: black;
+  font-size: 1.5em;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  /*text-shadow: 1px 1px 1px #222;*/
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+/*.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}*/
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+/*.collapsable-nav{
+  border: 0px solid black;
+  margin: none;
+}*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  /*clear: both;*/
+  margin-top: 20px;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+
+}
+#nav-list li {
+    /*border: 2px solid black;*/
+    border-top: 2px solid black;
+}
+/*#nav-list li:first-child {
+    border-top: 2px solid black;
+}*/
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-width: 0px;
+}
+
+@media (max-width: 767px) {
+p{
+  width: 100%;
+  /*border: 0px solid white;*/
+  background-color: gray;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+div.row{
+  width:100%;
+  background-color: gray;
+  margin: 20px auto 0;
+  border-left: 100px solid white;
+  border-right: 100px solid white;
+}
+}
+
+@media (min-width: 768px){
+  p{
+  width: 100%;
+  background-color: gray;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+div.row{
+  width:100%;
+  background-color: gray;
+  margin: 20px auto 0;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+}
+}
+/*.col-xs-12 p{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.col-sm-12,.col-md-12{
+  width: 100%;
+  border-left: 10px;
+  border-right: 10px;
+  border-color: white;
+  border-style: solid;
+}
+.col-sm-12,.col-md-12 p{
+  padding-left: 100px;
+  padding-right: 100px;
+}*/
+
+/* END HEADER */
+
+
