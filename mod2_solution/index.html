@@ -1,9 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title></title>
+    <meta charset="utf-8">
+    <title>assignment solution for module 2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        
+        div {
+            background-color: gray;
+            border: 1px black solid;
+            padding: 0px;
+            margin: 10px;
+        }
+        
+        section {
+            border: 1px black solid;
+            padding: 10px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            width: 100px;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: center;
+            float: right;
+            position: relative;
+        }
+        
+        p {
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        @media (min-width: 992px) {
+            .col-ld-4 {
+                width: 31.33%;
+                margin: 2% 1%;
+                float: left;
+                border: 1px solid black;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            .col-sd-12 {
+                width: 98%;
+                float: left;
+                border: 1px solid black;
+            }
+        }
+        
+        @media (min-width: 768px) and (max-width: 991px) {
+            .col-md-6 {
+                width: 48%;
+                margin: 2% 1%;
+                float: left;
+                border: 1px solid black;
+            }
+            .col-md-6#div3 {
+            	width: 98%;
+            	margin: 2% 1%;
+        	}
+        }
+        
+        
+    </style>
 </head>
+
 <body>
+    <h1> pets </h1>
+    <div class="col-ld-4 col-sd-12 col-md-6">
+        <section style="background-color: red;">dog
+        </section>
+        <p>The Xiasi Dog is a breed of dog and this dog is originated from Guizhou Province, China. No major kennel club recognized this breed of dog but Chinese Kennel Club has recognized this breed of dog only. This breed of dog is not popular and it is available in China only. It does not export. Currently, it is a rare breed of dog. The dog is very attractive and many people in China love this breed of dog. Characteristic of the dog made the dog as a good companion breed of dog. This breed of dog is a very old breed of dog. It is very small in size.
+        </p>
+    </div>
+    <div class="col-ld-4 col-sd-12 col-md-6">
+        <section style="background-color: blue;">cat</section>
+        <p>The Cats Wiki is a place for cat lovers to write about their pets, to share advice on cat care, to collect data about different cat breeds, and to write about anything related to cats.
+        </p>
+    </div>
+    <div class="col-ld-4 col-sd-12 col-md-6" id="div3">
+        <section style="background-color: green;">pig</section>
+        <p>dummy content</p>
+    </div>
 
 </body>
+
 </html>
